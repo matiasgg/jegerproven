@@ -1,0 +1,7 @@
+
+while spørsmål
+    readFileToSwiftString   //leser spørsmål # og gjør det om til en string
+                            //lagres på riktig format
+    writeStringToFile       // Skriver stringen til swiftCodeTest(foreløpig)
+    spørsmål++
+    

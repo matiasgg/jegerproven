@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6057DFA41DB61BC300B9DADD /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6057DFA31DB61BC300B9DADD /* ArrayExtension.swift */; };
+		6057DFAC1DB66D4200B9DADD /* BottomAlignedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6057DFAB1DB66D4200B9DADD /* BottomAlignedLabel.swift */; };
+		605CC1981DAFAAF5006EE290 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605CC1971DAFAAF5006EE290 /* AppDelegate.swift */; };
+		605CC19A1DAFAAF5006EE290 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605CC1991DAFAAF5006EE290 /* ViewController.swift */; };
+		605CC19D1DAFAAF5006EE290 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605CC19B1DAFAAF5006EE290 /* Main.storyboard */; };
+		605CC1A21DAFAAF5006EE290 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605CC1A01DAFAAF5006EE290 /* LaunchScreen.storyboard */; };
+		605CC1AD1DAFAAF5006EE290 /* jegerpr_venTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605CC1AC1DAFAAF5006EE290 /* jegerpr_venTests.swift */; };
+		605CC1B81DAFAAF5006EE290 /* jegerpr_venUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605CC1B71DAFAAF5006EE290 /* jegerpr_venUITests.swift */; };
+		605CC1C61DAFACC3006EE290 /* QuestionViewiPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 605CC1C51DAFACC3006EE290 /* QuestionViewiPhone5.xib */; };
+		605CC1C81DAFACFE006EE290 /* QuestionViewiPhone5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605CC1C71DAFACFE006EE290 /* QuestionViewiPhone5.swift */; };
+		605CC1CE1DAFAF23006EE290 /* ViewControllerQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605CC1CD1DAFAF23006EE290 /* ViewControllerQuestions.swift */; };
+		605CC1D21DAFB5CC006EE290 /* QuestionViewiPhone6.xib in Resources */ = {isa = PBXBuildFile; fileRef = 605CC1D11DAFB5CC006EE290 /* QuestionViewiPhone6.xib */; };
+		605CC1D61DAFBAF6006EE290 /* CheckiPhoneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605CC1D51DAFBAF6006EE290 /* CheckiPhoneModel.swift */; };
+		605CC1DA1DAFBE4E006EE290 /* QuestionViewiPhone6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605CC1D91DAFBE4E006EE290 /* QuestionViewiPhone6.swift */; };
+		605CC1DC1DAFC188006EE290 /* addBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605CC1DB1DAFC188006EE290 /* addBackground.swift */; };
+		605CC1DE1DAFC26D006EE290 /* SSRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605CC1DD1DAFC26D006EE290 /* SSRadioButton.swift */; };
+		605CC1E01DAFC280006EE290 /* SSRadioButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605CC1DF1DAFC280006EE290 /* SSRadioButtonController.swift */; };
+		6061140B1DBE513C0084CA25 /* QuestionViewiPhone6Plus.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6061140A1DBE513C0084CA25 /* QuestionViewiPhone6Plus.xib */; };
+		6061140F1DBE55560084CA25 /* QuestionViewiPhone6Plus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6061140E1DBE55560084CA25 /* QuestionViewiPhone6Plus.swift */; };
+		60751B961DB3C41B0054E34C /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60751B951DB3C41B0054E34C /* Question.swift */; };
+		60751B981DB3C4620054E34C /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60751B971DB3C4620054E34C /* Questions.swift */; };
+		60751B9A1DB3C5130054E34C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60751B991DB3C5130054E34C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		605CC1A91DAFAAF5006EE290 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 605CC18C1DAFAAF5006EE290 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 605CC1931DAFAAF5006EE290;
+			remoteInfo = "jegerprøven";
+		};
+		605CC1B41DAFAAF5006EE290 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 605CC18C1DAFAAF5006EE290 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 605CC1931DAFAAF5006EE290;
+			remoteInfo = "jegerprøven";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6057DFA31DB61BC300B9DADD /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		6057DFAB1DB66D4200B9DADD /* BottomAlignedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomAlignedLabel.swift; sourceTree = "<group>"; };
+		605CC1941DAFAAF5006EE290 /* jegerprøven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jegerprøven.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		605CC1971DAFAAF5006EE290 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		605CC1991DAFAAF5006EE290 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		605CC19C1DAFAAF5006EE290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		605CC1A11DAFAAF5006EE290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		605CC1A31DAFAAF5006EE290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605CC1A81DAFAAF5006EE290 /* jegerprøvenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "jegerprøvenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		605CC1AC1DAFAAF5006EE290 /* jegerpr_venTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jegerpr_venTests.swift; sourceTree = "<group>"; };
+		605CC1AE1DAFAAF5006EE290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605CC1B31DAFAAF5006EE290 /* jegerprøvenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "jegerprøvenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		605CC1B71DAFAAF5006EE290 /* jegerpr_venUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jegerpr_venUITests.swift; sourceTree = "<group>"; };
+		605CC1B91DAFAAF5006EE290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605CC1C51DAFACC3006EE290 /* QuestionViewiPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuestionViewiPhone5.xib; sourceTree = "<group>"; };
+		605CC1C71DAFACFE006EE290 /* QuestionViewiPhone5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewiPhone5.swift; sourceTree = "<group>"; };
+		605CC1CD1DAFAF23006EE290 /* ViewControllerQuestions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerQuestions.swift; sourceTree = "<group>"; tabWidth = 4; };
+		605CC1D11DAFB5CC006EE290 /* QuestionViewiPhone6.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuestionViewiPhone6.xib; sourceTree = "<group>"; };
+		605CC1D51DAFBAF6006EE290 /* CheckiPhoneModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckiPhoneModel.swift; sourceTree = "<group>"; };
+		605CC1D91DAFBE4E006EE290 /* QuestionViewiPhone6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewiPhone6.swift; sourceTree = "<group>"; };
+		605CC1DB1DAFC188006EE290 /* addBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addBackground.swift; sourceTree = "<group>"; };
+		605CC1DD1DAFC26D006EE290 /* SSRadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSRadioButton.swift; sourceTree = "<group>"; };
+		605CC1DF1DAFC280006EE290 /* SSRadioButtonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSRadioButtonController.swift; sourceTree = "<group>"; };
+		6061140A1DBE513C0084CA25 /* QuestionViewiPhone6Plus.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuestionViewiPhone6Plus.xib; sourceTree = "<group>"; };
+		6061140E1DBE55560084CA25 /* QuestionViewiPhone6Plus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewiPhone6Plus.swift; sourceTree = "<group>"; };
+		60751B951DB3C41B0054E34C /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		60751B971DB3C4620054E34C /* Questions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		60751B991DB3C5130054E34C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		605CC1911DAFAAF5006EE290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605CC1A51DAFAAF5006EE290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605CC1B01DAFAAF5006EE290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		605CC18B1DAFAAF5006EE290 = {
+			isa = PBXGroup;
+			children = (
+				605CC1961DAFAAF5006EE290 /* jegerprøven */,
+				605CC1AB1DAFAAF5006EE290 /* jegerprøvenTests */,
+				605CC1B61DAFAAF5006EE290 /* jegerprøvenUITests */,
+				605CC1951DAFAAF5006EE290 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		605CC1951DAFAAF5006EE290 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				605CC1941DAFAAF5006EE290 /* jegerprøven.app */,
+				605CC1A81DAFAAF5006EE290 /* jegerprøvenTests.xctest */,
+				605CC1B31DAFAAF5006EE290 /* jegerprøvenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		605CC1961DAFAAF5006EE290 /* jegerprøven */ = {
+			isa = PBXGroup;
+			children = (
+				605CC1971DAFAAF5006EE290 /* AppDelegate.swift */,
+				605CC1991DAFAAF5006EE290 /* ViewController.swift */,
+				605CC1CD1DAFAF23006EE290 /* ViewControllerQuestions.swift */,
+				6057DFA31DB61BC300B9DADD /* ArrayExtension.swift */,
+				605CC19B1DAFAAF5006EE290 /* Main.storyboard */,
+				605CC1A01DAFAAF5006EE290 /* LaunchScreen.storyboard */,
+				60751B991DB3C5130054E34C /* Assets.xcassets */,
+				605CC1A31DAFAAF5006EE290 /* Info.plist */,
+				60751B951DB3C41B0054E34C /* Question.swift */,
+				60751B971DB3C4620054E34C /* Questions.swift */,
+				605CC1C51DAFACC3006EE290 /* QuestionViewiPhone5.xib */,
+				605CC1C71DAFACFE006EE290 /* QuestionViewiPhone5.swift */,
+				605CC1D11DAFB5CC006EE290 /* QuestionViewiPhone6.xib */,
+				605CC1D91DAFBE4E006EE290 /* QuestionViewiPhone6.swift */,
+				6061140A1DBE513C0084CA25 /* QuestionViewiPhone6Plus.xib */,
+				6061140E1DBE55560084CA25 /* QuestionViewiPhone6Plus.swift */,
+				605CC1DD1DAFC26D006EE290 /* SSRadioButton.swift */,
+				605CC1DF1DAFC280006EE290 /* SSRadioButtonController.swift */,
+				605CC1D51DAFBAF6006EE290 /* CheckiPhoneModel.swift */,
+				605CC1DB1DAFC188006EE290 /* addBackground.swift */,
+				6057DFAB1DB66D4200B9DADD /* BottomAlignedLabel.swift */,
+			);
+			path = "jegerprøven";
+			sourceTree = "<group>";
+		};
+		605CC1AB1DAFAAF5006EE290 /* jegerprøvenTests */ = {
+			isa = PBXGroup;
+			children = (
+				605CC1AC1DAFAAF5006EE290 /* jegerpr_venTests.swift */,
+				605CC1AE1DAFAAF5006EE290 /* Info.plist */,
+			);
+			path = "jegerprøvenTests";
+			sourceTree = "<group>";
+		};
+		605CC1B61DAFAAF5006EE290 /* jegerprøvenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				605CC1B71DAFAAF5006EE290 /* jegerpr_venUITests.swift */,
+				605CC1B91DAFAAF5006EE290 /* Info.plist */,
+			);
+			path = "jegerprøvenUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		605CC1931DAFAAF5006EE290 /* jegerprøven */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605CC1BC1DAFAAF5006EE290 /* Build configuration list for PBXNativeTarget "jegerprøven" */;
+			buildPhases = (
+				605CC1901DAFAAF5006EE290 /* Sources */,
+				605CC1911DAFAAF5006EE290 /* Frameworks */,
+				605CC1921DAFAAF5006EE290 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "jegerprøven";
+			productName = "jegerprøven";
+			productReference = 605CC1941DAFAAF5006EE290 /* jegerprøven.app */;
+			productType = "com.apple.product-type.application";
+		};
+		605CC1A71DAFAAF5006EE290 /* jegerprøvenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605CC1BF1DAFAAF5006EE290 /* Build configuration list for PBXNativeTarget "jegerprøvenTests" */;
+			buildPhases = (
+				605CC1A41DAFAAF5006EE290 /* Sources */,
+				605CC1A51DAFAAF5006EE290 /* Frameworks */,
+				605CC1A61DAFAAF5006EE290 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				605CC1AA1DAFAAF5006EE290 /* PBXTargetDependency */,
+			);
+			name = "jegerprøvenTests";
+			productName = "jegerprøvenTests";
+			productReference = 605CC1A81DAFAAF5006EE290 /* jegerprøvenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		605CC1B21DAFAAF5006EE290 /* jegerprøvenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605CC1C21DAFAAF5006EE290 /* Build configuration list for PBXNativeTarget "jegerprøvenUITests" */;
+			buildPhases = (
+				605CC1AF1DAFAAF5006EE290 /* Sources */,
+				605CC1B01DAFAAF5006EE290 /* Frameworks */,
+				605CC1B11DAFAAF5006EE290 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				605CC1B51DAFAAF5006EE290 /* PBXTargetDependency */,
+			);
+			name = "jegerprøvenUITests";
+			productName = "jegerprøvenUITests";
+			productReference = 605CC1B31DAFAAF5006EE290 /* jegerprøvenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		605CC18C1DAFAAF5006EE290 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Greaker;
+				TargetAttributes = {
+					605CC1931DAFAAF5006EE290 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8YG25V45E2;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
+					};
+					605CC1A71DAFAAF5006EE290 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 605CC1931DAFAAF5006EE290;
+					};
+					605CC1B21DAFAAF5006EE290 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 605CC1931DAFAAF5006EE290;
+					};
+				};
+			};
+			buildConfigurationList = 605CC18F1DAFAAF5006EE290 /* Build configuration list for PBXProject "jegerprøven" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 605CC18B1DAFAAF5006EE290;
+			productRefGroup = 605CC1951DAFAAF5006EE290 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				605CC1931DAFAAF5006EE290 /* jegerprøven */,
+				605CC1A71DAFAAF5006EE290 /* jegerprøvenTests */,
+				605CC1B21DAFAAF5006EE290 /* jegerprøvenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		605CC1921DAFAAF5006EE290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6061140B1DBE513C0084CA25 /* QuestionViewiPhone6Plus.xib in Resources */,
+				605CC1A21DAFAAF5006EE290 /* LaunchScreen.storyboard in Resources */,
+				605CC1D21DAFB5CC006EE290 /* QuestionViewiPhone6.xib in Resources */,
+				605CC19D1DAFAAF5006EE290 /* Main.storyboard in Resources */,
+				605CC1C61DAFACC3006EE290 /* QuestionViewiPhone5.xib in Resources */,
+				60751B9A1DB3C5130054E34C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605CC1A61DAFAAF5006EE290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605CC1B11DAFAAF5006EE290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		605CC1901DAFAAF5006EE290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605CC1DA1DAFBE4E006EE290 /* QuestionViewiPhone6.swift in Sources */,
+				605CC1C81DAFACFE006EE290 /* QuestionViewiPhone5.swift in Sources */,
+				605CC1DC1DAFC188006EE290 /* addBackground.swift in Sources */,
+				6057DFA41DB61BC300B9DADD /* ArrayExtension.swift in Sources */,
+				605CC1D61DAFBAF6006EE290 /* CheckiPhoneModel.swift in Sources */,
+				605CC19A1DAFAAF5006EE290 /* ViewController.swift in Sources */,
+				60751B961DB3C41B0054E34C /* Question.swift in Sources */,
+				60751B981DB3C4620054E34C /* Questions.swift in Sources */,
+				6061140F1DBE55560084CA25 /* QuestionViewiPhone6Plus.swift in Sources */,
+				605CC1CE1DAFAF23006EE290 /* ViewControllerQuestions.swift in Sources */,
+				605CC1E01DAFC280006EE290 /* SSRadioButtonController.swift in Sources */,
+				605CC1981DAFAAF5006EE290 /* AppDelegate.swift in Sources */,
+				6057DFAC1DB66D4200B9DADD /* BottomAlignedLabel.swift in Sources */,
+				605CC1DE1DAFC26D006EE290 /* SSRadioButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605CC1A41DAFAAF5006EE290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605CC1AD1DAFAAF5006EE290 /* jegerpr_venTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605CC1AF1DAFAAF5006EE290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605CC1B81DAFAAF5006EE290 /* jegerpr_venUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		605CC1AA1DAFAAF5006EE290 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 605CC1931DAFAAF5006EE290 /* jegerprøven */;
+			targetProxy = 605CC1A91DAFAAF5006EE290 /* PBXContainerItemProxy */;
+		};
+		605CC1B51DAFAAF5006EE290 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 605CC1931DAFAAF5006EE290 /* jegerprøven */;
+			targetProxy = 605CC1B41DAFAAF5006EE290 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		605CC19B1DAFAAF5006EE290 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				605CC19C1DAFAAF5006EE290 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		605CC1A01DAFAAF5006EE290 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				605CC1A11DAFAAF5006EE290 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		605CC1BA1DAFAAF5006EE290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		605CC1BB1DAFAAF5006EE290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		605CC1BD1DAFAAF5006EE290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Matias Gjestvang Greaker (8YG25V45E2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 8YG25V45E2;
+				INFOPLIST_FILE = "jegerprøven/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.greaker.jegerpr-ven";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "38493c67-259c-47f7-8390-9673a7568e64";
+				PROVISIONING_PROFILE_SPECIFIER = "GG's Provisioning Distribution Profile";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		605CC1BE1DAFAAF5006EE290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Matias Gjestvang Greaker (8YG25V45E2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 8YG25V45E2;
+				INFOPLIST_FILE = "jegerprøven/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.greaker.jegerpr-ven";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "38493c67-259c-47f7-8390-9673a7568e64";
+				PROVISIONING_PROFILE_SPECIFIER = "GG's Provisioning Distribution Profile";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		605CC1C01DAFAAF5006EE290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "jegerprøvenTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.greaker.jegerpr-venTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jegerprøven.app/jegerprøven";
+			};
+			name = Debug;
+		};
+		605CC1C11DAFAAF5006EE290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "jegerprøvenTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.greaker.jegerpr-venTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jegerprøven.app/jegerprøven";
+			};
+			name = Release;
+		};
+		605CC1C31DAFAAF5006EE290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "jegerprøvenUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.greaker.jegerpr-venUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "jegerprøven";
+			};
+			name = Debug;
+		};
+		605CC1C41DAFAAF5006EE290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "jegerprøvenUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.greaker.jegerpr-venUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "jegerprøven";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		605CC18F1DAFAAF5006EE290 /* Build configuration list for PBXProject "jegerprøven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605CC1BA1DAFAAF5006EE290 /* Debug */,
+				605CC1BB1DAFAAF5006EE290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		605CC1BC1DAFAAF5006EE290 /* Build configuration list for PBXNativeTarget "jegerprøven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605CC1BD1DAFAAF5006EE290 /* Debug */,
+				605CC1BE1DAFAAF5006EE290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		605CC1BF1DAFAAF5006EE290 /* Build configuration list for PBXNativeTarget "jegerprøvenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605CC1C01DAFAAF5006EE290 /* Debug */,
+				605CC1C11DAFAAF5006EE290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		605CC1C21DAFAAF5006EE290 /* Build configuration list for PBXNativeTarget "jegerprøvenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605CC1C31DAFAAF5006EE290 /* Debug */,
+				605CC1C41DAFAAF5006EE290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 605CC18C1DAFAAF5006EE290 /* Project object */;
+}

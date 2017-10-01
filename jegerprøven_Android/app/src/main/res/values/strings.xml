@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Mattis</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="JegerTittel">Jegerprøven</string>
+    <string name="FiftyQuestions">Jegerprøven - 50 spørsmål</string>
+    <string name="TwentyQuestions">Jegerprøven - 20 spørsmål</string>
+    <string name="ArtTest">Artskunnskaper - 20 spørsmål</string>
+    <string name="title_activity_fifty_questions">FiftyQuestions</string>
+    <string name="radioButton1">New RadioButton</string>
+    <string name="radioButton2">New RadioButton</string>
+    <string name="radioButton3">New RadioButton</string>
+    <string name="nextQuestion">Sjekk</string>
+    <string name="Question">New Text</string>
+    <string name="title_activity_sjekk">Sjekk</string>
+    <string name="sjekk">sjekk</string>
+    <string name="sjekkText">sjekkText</string>
+    <string name="riktiGalt">default</string>
+</resources>

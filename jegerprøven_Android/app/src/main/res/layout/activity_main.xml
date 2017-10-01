@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@drawable/main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/JegerTittel"
+        android:id="@+id/textView"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="96dp"
+        android:typeface="monospace" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="true"
+        android:weightSum="1"
+        android:gravity="top"
+        android:id="@+id/linearLayout">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/FiftyQuestions"
+            android:id="@+id/FiftyQuestions"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.32"
+            android:onClick="startFiftyQuestions"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/TwentyQuestions"
+            android:id="@+id/TwentyQuestions"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.32"
+            android:onClick="startTwentyQuestions" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ArtTest"
+            android:id="@+id/ArtTest"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.32"
+            android:onClick="startArtKunnskap"
+            android:nestedScrollingEnabled="false" />
+    </LinearLayout>
+
+</RelativeLayout>

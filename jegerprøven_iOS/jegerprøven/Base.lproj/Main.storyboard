@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="qQr-ZO-csc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Meny-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="jegerprøven" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G8y-x2-nhA">
+                                <rect key="frame" x="171" y="271" width="258" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="h4Q-dr-YTy"/>
+                                </constraints>
+                                <state key="normal" title="Jegerprøven - 20 Spørsmål"/>
+                                <connections>
+                                    <action selector="anyButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="evp-Mc-XnS"/>
+                                    <segue destination="g4t-M4-kek" kind="show" id="a0S-Cg-rou"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E03-uv-RWW">
+                                <rect key="frame" x="171" y="374" width="258" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="bBJ-HA-DWY"/>
+                                </constraints>
+                                <state key="normal" title="Artskunnskaper - 20 Spørsmål"/>
+                                <connections>
+                                    <action selector="anyButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uxb-Is-VYU"/>
+                                    <segue destination="g4t-M4-kek" kind="show" id="PiX-dR-3UF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Biq-kD-5YY">
+                                <rect key="frame" x="171" y="167" width="258" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="NR1-Jj-4OL"/>
+                                </constraints>
+                                <state key="normal" title="Jegerprøven - 50 Spørsmål"/>
+                                <connections>
+                                    <action selector="anyButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Htj-KE-ubf"/>
+                                    <segue destination="g4t-M4-kek" kind="show" id="9ZV-Kv-PNu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.9970806621697218" green="0.78068254620597599" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="E03-uv-RWW" firstAttribute="top" secondItem="G8y-x2-nhA" secondAttribute="bottom" constant="20" id="25F-Ub-RPG"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" relation="greaterThanOrEqual" secondItem="E03-uv-RWW" secondAttribute="bottom" priority="750" constant="100" id="Dgz-DV-OyZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="G8y-x2-nhA" secondAttribute="trailing" id="MrU-Ab-nH3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="E03-uv-RWW" secondAttribute="trailing" id="fbZ-gx-pPd"/>
+                            <constraint firstItem="G8y-x2-nhA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="n0Y-tz-dsP"/>
+                            <constraint firstItem="Biq-kD-5YY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="oDL-fT-0E9"/>
+                            <constraint firstItem="G8y-x2-nhA" firstAttribute="top" secondItem="Biq-kD-5YY" secondAttribute="bottom" constant="20" id="sF0-9m-P25"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Biq-kD-5YY" secondAttribute="trailing" id="uU5-dg-h7q"/>
+                            <constraint firstItem="E03-uv-RWW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="uaP-hD-OW9"/>
+                            <constraint firstItem="Biq-kD-5YY" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" priority="750" constant="100" id="v7D-WR-bm0"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Meny" id="zTU-fD-kEH"/>
+                    <connections>
+                        <outletCollection property="questionChoice" destination="E03-uv-RWW" collectionClass="NSMutableArray" id="Ocv-od-YPq"/>
+                        <outletCollection property="questionChoice" destination="G8y-x2-nhA" collectionClass="NSMutableArray" id="jEk-tQ-zb1"/>
+                        <outletCollection property="questionChoice" destination="Biq-kD-5YY" collectionClass="NSMutableArray" id="8MU-iX-sS1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="952" y="290"/>
+        </scene>
+        <!--View Controller Questions-->
+        <scene sceneID="33W-55-g8F">
+            <objects>
+                <viewController id="g4t-M4-kek" customClass="ViewControllerQuestions" customModule="jegerprøven" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="94e-tk-uBd"/>
+                        <viewControllerLayoutGuide type="bottom" id="WPD-1H-eqj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tCZ-Hn-eMx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bz7-gB-oWx" customClass="QuestionViewiPhone5" customModule="jegerprøven" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="64" width="600" height="544"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.87711447405694254" blue="0.50866477038171776" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3C4-6M-sRX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OMb-T5-LTE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1661" y="290"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="uRD-Ge-eyc">
+            <objects>
+                <navigationController storyboardIdentifier="ViewControllerNavigation" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qQr-ZO-csc" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eKi-AT-cgx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="SO8-nv-Eb9">
+                        <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="6qO-NA-WOD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hGx-f4-VKl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="952" y="-522"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="a0S-Cg-rou"/>
+    </inferredMetricsTieBreakers>
+</document>
